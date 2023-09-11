@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+
 //membuat schema
 const Contact = mongoose.model("Contact", {
   nama: {
